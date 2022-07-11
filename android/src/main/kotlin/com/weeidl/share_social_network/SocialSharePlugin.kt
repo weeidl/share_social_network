@@ -43,7 +43,7 @@ class SocialSharePlugin:FlutterPlugin, MethodCallHandler, ActivityAware {
             val backgroundBottomColor: String? = call.argument("backgroundBottomColor")
             val attributionURL: String? = call.argument("attributionURL")
             val file =  File(activeContext!!.cacheDir,stickerImage)
-            val stickerImageFile = FileProvider.getUriForFile(activeContext!!, activeContext!!.applicationContext.packageName + ".com.shekarmudaliyar.social_share", file)
+            val stickerImageFile = FileProvider.getUriForFile(activeContext!!, activeContext!!.applicationContext.packageName + ".com.weeidl.share_social_network", file)
 
             val intent = Intent("com.instagram.share.ADD_TO_STORY")
             intent.type = "image/*"
@@ -53,7 +53,7 @@ class SocialSharePlugin:FlutterPlugin, MethodCallHandler, ActivityAware {
             if (backgroundImage!=null) {
                 //check if background image is also provided
                 val backfile =  File(activeContext!!.cacheDir,backgroundImage)
-                val backgroundImageFile = FileProvider.getUriForFile(activeContext!!, activeContext!!.applicationContext.packageName + ".com.shekarmudaliyar.social_share", backfile)
+                val backgroundImageFile = FileProvider.getUriForFile(activeContext!!, activeContext!!.applicationContext.packageName + ".com.weeidl.share_social_network", backfile)
                 intent.setDataAndType(backgroundImageFile,"image/*")
             }
             intent.putExtra("content_url", attributionURL)
@@ -188,7 +188,7 @@ class SocialSharePlugin:FlutterPlugin, MethodCallHandler, ActivityAware {
             }
         }
         else if (call.method == "checkInstalledApps") {
-            //check if the apps exist
+            //check if the apps exists
             //creating a mutable map of apps
             var apps:MutableMap<String, Boolean> = mutableMapOf()
             //assigning package manager
