@@ -6,8 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 
 class ShareSocialNetwork {
-  static const MethodChannel _channel =
-      const MethodChannel('share_social_network');
+  static const MethodChannel _channel = const MethodChannel('social_share');
 
   static Future<String?> shareInstagramStory(
     String imagePath, {
