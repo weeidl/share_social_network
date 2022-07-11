@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.shekarmudaliyar.social_share">
+    package="com.weeidl.share_social_network">
     <meta-data android:name="flutterEmbedding" android:value="2"/>
 </manifest>

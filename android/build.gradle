@@ -1,4 +1,4 @@
-group 'com.shekarmudaliyar.social_share'
+group 'com.weeidl.share_social_network'
 version '1.0-SNAPSHOT'
 
 buildscript {
