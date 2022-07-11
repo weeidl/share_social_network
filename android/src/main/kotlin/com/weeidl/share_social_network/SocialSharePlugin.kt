@@ -188,7 +188,7 @@ class SocialSharePlugin:FlutterPlugin, MethodCallHandler, ActivityAware {
             }
         }
         else if (call.method == "checkInstalledApps") {
-            //check if the apps exists
+            //check if the apps exist
             //creating a mutable map of apps
             var apps:MutableMap<String, Boolean> = mutableMapOf()
             //assigning package manager
