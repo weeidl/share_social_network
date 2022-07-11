@@ -43,7 +43,7 @@ class SocialSharePlugin:FlutterPlugin, MethodCallHandler, ActivityAware {
             val backgroundBottomColor: String? = call.argument("backgroundBottomColor")
             val attributionURL: String? = call.argument("attributionURL")
             val file =  File(activeContext!!.cacheDir,stickerImage)
-            val stickerImageFile = FileProvider.getUriForFile(activeContext!!, activeContext!!.applicationContext.packageName + ".com.shekarmudaliyar.social_share", file)
+            val stickerImageFile = FileProvider.getUriForFile(activeContext!!, activeContext!!.applicationContext.packageName + ".com.weeidl.share_social_network", file)
 
             val intent = Intent("com.instagram.share.ADD_TO_STORY")
             intent.type = "image/*"
