@@ -5,16 +5,17 @@ import 'dart:typed_data';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 
-class SocialShare {
-  static const MethodChannel _channel = const MethodChannel('social_share');
+class ShareSocialNetwork {
+  static const MethodChannel _channel =
+      const MethodChannel('share_social_network');
 
   static Future<String?> shareInstagramStory(
-      String imagePath, {
-        String? backgroundTopColor,
-        String? backgroundBottomColor,
-        String? attributionURL,
-        String? backgroundImagePath,
-      }) async {
+    String imagePath, {
+    String? backgroundTopColor,
+    String? backgroundBottomColor,
+    String? attributionURL,
+    String? backgroundImagePath,
+  }) async {
     Map<String, dynamic> args;
     if (Platform.isIOS) {
       if (backgroundImagePath == null) {
@@ -104,7 +105,7 @@ class SocialShare {
       };
     }
     final String? response =
-    await _channel.invokeMethod('shareFacebookStory', args);
+        await _channel.invokeMethod('shareFacebookStory', args);
     return response;
   }
 
