@@ -48,12 +48,13 @@ class _ContentState extends State<Content> {
     bool languageCodePlatform(BuildContext context) {
       final platformLanguageCode = Localizations.localeOf(context).toString();
       if (platformLanguageCode == 'en') {
-        return false;
-      } else {
         return true;
+      } else {
+        return false;
       }
     }
 
+    print('=-=-=- ${languageCodePlatform(context)}');
     return Column(
       children: [
         if (widget.showTextShare == true)
