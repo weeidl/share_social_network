@@ -1,8 +1,26 @@
-# Custom Bottom Sheet
+# Share Social Network
  
 [![pub package](https://img.shields.io/pub/v/adaptive_action_sheet.svg)](https://pub.dev/packages/custom_bottom_sheet)
 
-A action bottom sheet that adapts to the platform.
+
+Wide variety of sharing options you'll need to share directly to certain popular apps or just share with default native share.
+
+## Introduction
+
+Works on both platforms `Android` and `iOS`
+
+It provides you with most of the popular sharing options
+With this plugin you can share on instagram stories and facebook stories and also copy to clipboard
+
+## Usage
+
+### Android Configuration
+
+#### Paste the following attribute in the `manifest` tag in the `android/app/src/main/AndroidManifest.xml`:
+
+```
+ 		`xmlns:tools="http://schemas.android.com/tools"`
+```
 
 | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/instagram-weeidl.gif) | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/image.png) | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/twitter-weeidl.gif) |
 | :------------: | :------------: | :------------: |
