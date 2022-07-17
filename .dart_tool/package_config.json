@@ -45,13 +45,13 @@
     },
     {
       "name": "ffi",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-1.0.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "file",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -111,33 +111,45 @@
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.16",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "path_provider_ios",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.10",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path_provider_macos",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path_provider_platform_interface",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.1",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path_provider_windows",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "petitparser",
@@ -147,21 +159,21 @@
     },
     {
       "name": "platform",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "process",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.1.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "screenshot",
@@ -219,13 +231,13 @@
     },
     {
       "name": "win32",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.0.4",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "xdg_directories",
-      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.2.0",
+      "rootUri": "file:///Users/weeidl/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.2.0+1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -242,7 +254,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-07-17T00:38:17.368287Z",
+  "generated": "2022-07-17T11:31:01.329345Z",
   "generator": "pub",
   "generatorVersion": "2.17.5"
 }

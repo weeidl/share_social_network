@@ -19,6 +19,8 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  assets:
+    - image/
   plugin:
     platforms:
       android:
@@ -26,5 +28,4 @@ flutter:
         pluginClass: SocialSharePlugin
       ios:
         pluginClass: SocialSharePlugin
-  assets:
-    - assets/
+

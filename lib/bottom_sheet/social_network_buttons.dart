@@ -13,7 +13,7 @@ class SocialNetworkButtons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        InkWell(
+        GestureDetector(
           onTap: onTap,
           child: Container(
             height: 72,
