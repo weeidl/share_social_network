@@ -4,11 +4,10 @@
 
 A action bottom sheet that adapts to the platform.
 
-| ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif) |
-| ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif) |
+| ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif) 
 | ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/photo_readmi.jpg) |
-| :------------: | :------------: | :------------: |
-| **Video** | **Photo** |  **Photo** |
+| :------------: | :------------: |
+| **Video** | **Photo** |
 
 ## Getting Started
 
