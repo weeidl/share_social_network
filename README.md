@@ -4,7 +4,7 @@
 
 A action bottom sheet that adapts to the platform.
 
-| ![Image](https://github.com/weeidl/share_social_network/blob/master/image/instagram-weeidl.gif) | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/image.png) | (https://github.com/weeidl/share_social_network/blob/master/image/twitter-weeidl.gif) |
+| ![Image](https://github.com/weeidl/share_social_network/blob/master/image/instagram-weeidl.gif) | ![Image] (https://github.com/weeidl/share_social_network/blob/master/image/twitter-weeidl.gif) |
 | :------------: | :------------: |
 | **Video** | **Photo** |
 
