@@ -1,6 +1,6 @@
 name: share_social_network
-description: Hello
-version: 0.0.1
+description: Weeidl
+version: 1.0.0
 homepage:
 
 environment:
@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   path_provider: ^2.0.5
+  flutter_svg: 1.1.0
+  screenshot: ^1.2.3
 
 dev_dependencies:
   flutter_test:
@@ -24,3 +26,5 @@ flutter:
         pluginClass: SocialSharePlugin
       ios:
         pluginClass: SocialSharePlugin
+  assets:
+    - assets/
