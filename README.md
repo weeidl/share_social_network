@@ -3,14 +3,16 @@
 [![pub package](https://img.shields.io/pub/v/adaptive_action_sheet.svg)](https://pub.dev/packages/custom_bottom_sheet)
 
 
-Wide variety of sharing options you'll need to share directly to certain popular apps or just share with default native share.
+A ready-made platform that provides a wide range of ways to share, you will need to provide access directly to certain popular applications or just share using the built-in default sharing.
 
-## Introduction
+## Platforms
 
 Works on both platforms `Android` and `iOS`
 
-It provides you with most of the popular sharing options
-With this plugin you can share on instagram stories and facebook stories and also copy to clipboard
+| ![Image](https://github.com/weeidl/share_social_network/blob/master/image/instagram-weeidl.gif) | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/image.png) | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/twitter-weeidl.gif) |
+| :------------: | :------------: | :------------: |
+| **Video** | **Photo** |  **Video** |
+
 
 ## Usage
 
@@ -21,10 +23,6 @@ With this plugin you can share on instagram stories and facebook stories and als
 ```
  		`xmlns:tools="http://schemas.android.com/tools"`
 ```
-
-| ![Image](https://github.com/weeidl/share_social_network/blob/master/image/instagram-weeidl.gif) | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/image.png) | ![Image](https://github.com/weeidl/share_social_network/blob/master/image/twitter-weeidl.gif) |
-| :------------: | :------------: | :------------: |
-| **Video** | **Photo** |  **Video** |
 
 ## Getting Started
 
