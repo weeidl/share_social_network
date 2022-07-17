@@ -1,6 +1,6 @@
 name: share_social_network
-description: Weeidl
-version: 1.2.1
+description: A ready-made platform that provides a wide range of ways to share, you will need to provide access directly to certain popular applications or just share using the built-in default sharing.
+version: 1.2.8
 homepage: https://github.com/weeidl/share_social_network
 
 environment:
