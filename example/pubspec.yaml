@@ -10,7 +10,7 @@ dependencies:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  # Use with the CupertinoIcons class for iOS style xicons.
   cupertino_icons: ^0.1.3
   screenshot: ^1.2.3
   path_provider: ^2.0.2
@@ -20,7 +20,7 @@ dependencies:
 
 
   share_social_network:
-    git: https://github.com/weeidl/share_social_network.git
+    path: ../
 
 
 dev_dependencies:

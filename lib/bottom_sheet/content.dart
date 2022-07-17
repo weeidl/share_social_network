@@ -54,7 +54,6 @@ class _ContentState extends State<Content> {
       }
     }
 
-    print(widget.showTextShare);
     return Column(
       children: [
         if (widget.showTextShare == true)

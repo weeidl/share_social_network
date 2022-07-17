@@ -292,12 +292,10 @@ packages:
   share_social_network:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3"
-      url: "https://github.com/weeidl/share_social_network.git"
-    source: git
-    version: "1.0.0"
+      path: ".."
+      relative: true
+    source: path
+    version: "1.2.1"
   sky_engine:
     dependency: transitive
     description: flutter
