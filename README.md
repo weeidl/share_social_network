@@ -18,10 +18,42 @@ Works on both platforms `Android` and `iOS`
 
 ### Android Configuration
 
-#### Paste the following attribute in the `manifest` tag in the `android/app/src/main/AndroidManifest.xml`:
+#### Paste the following attribute in the `AndroidManifest.xml` tag in the `android/app/src/main/AndroidManifest.xml`:
 
 ```
  		`xmlns:tools="http://schemas.android.com/tools"`
+```
+
+##### For example:
+
+```
+        <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+         package...
+```
+
+#### Create a xml file named `filepaths.xml` in the `app/src/main/res/xml` folder and paste this code in the file :
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="image" path="/"/>
+</paths>
+```
+
+#### Add this code snippet to the very bottom `manifest/application` in the `android/app/src/main/AndroidManifest.xml` insert after `meta-data`:
+
+```
+ 		<provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.com.weeidl.share_social_network"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
 ```
 
 ## Getting Started
