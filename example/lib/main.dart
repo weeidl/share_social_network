@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
       pillColor: Colors.black12,
       transitionDuration: Duration(milliseconds: 300),
       screenshotController: screenshotController,
-      copyToClipboard: "https://www.figma.com/file/weeidl/Share...",
+      copyToClipboard: "https://github.com/weeidl/share_social...",
       telegram: Telegram(
         content: "Hello World \n https://github.com/weeidl",
       ),

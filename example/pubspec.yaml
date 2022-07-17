@@ -15,7 +15,6 @@ dependencies:
   screenshot: ^1.2.3
   path_provider: ^2.0.2
   flutter_svg: ^1.1.0
-
   image_picker: ^0.8.4
 
 
