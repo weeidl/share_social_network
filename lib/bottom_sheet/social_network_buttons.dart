@@ -22,7 +22,7 @@ class SocialNetworkButtons extends StatelessWidget {
               borderRadius: BorderRadius.circular(100),
               color: Color(0xFF9D9D9D).withOpacity(0.15),
             ),
-            child: SvgPicture.asset(
+            child: SvgPicture.network(
               image,
               fit: BoxFit.none,
             ),

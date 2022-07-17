@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:share_social_network/bottom_sheet/social_network_buttons.dart';
@@ -76,7 +77,8 @@ class _ContentState extends State<Content> {
                 name: languageCodePlatform(context)
                     ? 'Instagram\nСторис'
                     : 'Instagram\nStory',
-                image: 'image/instagram.svg',
+                image:
+                    'https://raw.githubusercontent.com/weeidl/share_social_network/0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3/image/instagram.svg',
                 onTap: () async => SocialShare.shareInstagramStory(
                   widget.instagramShare!.imagePath,
                   backgroundTopColor: widget.instagramShare?.backgroundTopColor,
@@ -92,7 +94,8 @@ class _ContentState extends State<Content> {
             if (widget.telegramShare != null)
               SocialNetworkButtons(
                 name: 'Telegram',
-                image: 'image/telegram.svg',
+                image:
+                    'https://raw.githubusercontent.com/weeidl/share_social_network/0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3/image/telegram.svg',
                 onTap: () => SocialShare.shareTelegram(
                   widget.telegramShare!.content,
                 ).then((data) {
@@ -104,7 +107,8 @@ class _ContentState extends State<Content> {
                 name: languageCodePlatform(context)
                     ? 'Facebook\nСторис'
                     : 'Facebook\nStory',
-                image: 'image/facebook.svg',
+                image:
+                    'https://raw.githubusercontent.com/weeidl/share_social_network/0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3/image/facebook.svg',
                 onTap: () async => await widget.screenshotController
                     ?.capture()
                     .then((image) async {
@@ -135,7 +139,8 @@ class _ContentState extends State<Content> {
             if (widget.whatsappShare != null)
               SocialNetworkButtons(
                 name: 'Whatsapp',
-                image: 'image/whatsapp.svg',
+                image:
+                    'https://raw.githubusercontent.com/weeidl/share_social_network/0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3/image/whatsapp.svg',
                 onTap: () => SocialShare.shareWhatsapp(
                   widget.whatsappShare!.content,
                 ).then((data) {
@@ -145,7 +150,8 @@ class _ContentState extends State<Content> {
             if (widget.twitterShare != null)
               SocialNetworkButtons(
                 name: 'Twitter',
-                image: 'image/twitter.svg',
+                image:
+                    'https://raw.githubusercontent.com/weeidl/share_social_network/0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3/image/twitter.svg',
                 onTap: () => SocialShare.shareTwitter(
                   widget.twitterShare!.captionText,
                   hashtags: widget.twitterShare?.hashtags,
@@ -160,7 +166,8 @@ class _ContentState extends State<Content> {
                 name: languageCodePlatform(context)
                     ? 'Другие приложения'
                     : 'Share Options',
-                image: 'image/share.svg',
+                image:
+                    'https://raw.githubusercontent.com/weeidl/share_social_network/0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3/image/share.svg',
                 onTap: () async => await widget.screenshotController
                     ?.capture()
                     .then((image) async {
@@ -220,11 +227,10 @@ class _ContentState extends State<Content> {
                             color: Color(0xFF3D5A80).withOpacity(0.5)),
                       ),
                       Spacer(),
-                      Image.network(
-                        'https://pixy.org/src/481/4811748.png',
+                      SvgPicture.network(
+                        'https://raw.githubusercontent.com/weeidl/share_social_network/0ed59c7360942a7450d5fa09ce49a6f0e0d6a9e3/image/copy.svg',
                         height: 24,
                         width: 24,
-                        // fit: BoxFit.none,
                       ),
                     ],
                   ),
