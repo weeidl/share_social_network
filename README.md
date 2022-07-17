@@ -1,6 +1,6 @@
 # Share Social Network
  
-[![pub package](https://img.shields.io/pub/v/adaptive_action_sheet.svg)](https://pub.dev/packages/custom_bottom_sheet)
+[![pub package](https://img.shields.io/pub/v/adaptive_action_sheet.svg)](https://pub.dev/packages/share_social_network)
 
 
 A ready-made platform that provides a wide range of ways to share, you will need to provide access directly to certain popular applications or just share using the built-in default sharing.
@@ -85,7 +85,7 @@ Works on both platforms `Android` and `iOS`
  Add the package to your pubspec.yaml:
 
  ```yaml
-    share_social_network: ^1.1.2
+    share_social_network: ^1.2.9
  ```
  
  In your dart file, import the library:
